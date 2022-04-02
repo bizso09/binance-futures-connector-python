@@ -1,5 +1,6 @@
 import json
 import logging
+logging=logging.getLogger(__name__)
 import threading
 from urllib.parse import urlparse
 from twisted.internet import reactor, ssl
