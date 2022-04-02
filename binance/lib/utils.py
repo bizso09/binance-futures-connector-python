@@ -61,4 +61,4 @@ def convert_list_to_json_array(symbols):
 
 
 def config_logging(logging, logging_devel, log_file=None):
-    logging.basicConfig(level=logging_devel, filename=log_file)
+    pass
