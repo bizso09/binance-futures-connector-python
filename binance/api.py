@@ -3,6 +3,7 @@ import sys
 import hmac
 import json
 import logging
+logging=logging.getLogger(__name__)
 import hashlib
 from json import JSONDecodeError
 
