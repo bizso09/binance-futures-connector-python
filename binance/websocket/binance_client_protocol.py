@@ -1,5 +1,6 @@
 import json
 import logging
+logging=logging.getLogger(__name__)
 from autobahn.twisted.websocket import WebSocketClientProtocol
 
 
