@@ -1,4 +1,5 @@
 import logging
+logging=logging.getLogger(__name__)
 from autobahn.twisted.websocket import WebSocketClientFactory
 from twisted.internet.protocol import ReconnectingClientFactory
 from binance.websocket.binance_client_protocol import BinanceClientProtocol
